@@ -3,9 +3,60 @@
 <include src="taglibs/auto/rapid/cards"/>
 <include src="taglibs/auto/rapid/pages"/>
 <include src="taglibs/auto/rapid/forms"/>
+<include src="paperclip" plugin="paperclip_with_hobo"/>
 
 <set-theme name="clean"/>
 
-<def tag="app-name">Address Book</def>
+<def tag="app-name">Phone Book</def>
+
+<def tag="form" for="Contact">
+  <form merge param="default" enctype="multipart/form-data">
+    <error-messages param/>
+		
+    <field-list fields="first_name, last_name, image, email_address, phone_number, twitter_name, twitter_password" param/>
+    <div param="actions">
+      <submit label="Save" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+<extend tag="show-page" for="Contact">
+  <page merge>
+
+    <content: param>
+           <header param="content-header">
+            <h2 param="heading"><name/></h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">Edit Contact</a>
+          </header>             	
+          <section param="content-body">
+          	<div class="contact_image">
+          		<%= image_tag this.image.url :medium %>
+          	</div>
+          	<div class="contact_fields">
+              <field-list fields="first_name, last_name, email_address, phone_number,  twitter_name" param/>
+						</div>
+          </section>
+    </content:>
+    
+  </page>
+</extend>
+
+<def tag="autocomplete-li">
+	<li><%=this.name%> <a>-></a></li>
+</def>
+
+<def tag="autocomplete-search">
+	
+	<ul>
+		<repeat>
+			<autocomplete-li/>
+		</repeat>
+	</ul>
+	
+</def>	
+
 
 
