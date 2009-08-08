@@ -1,0 +1,1385 @@
+# Logfile created on Sat Aug 08 22:21:20 +0100 2009 by logger.rb/22285
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] rebuild index with models: []
+[contact] reopening index at /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :twitter_name, :first_name, :last_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam first_name:adam last_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam
+total hits: 0, results delivered: 0
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Adam
+-->+(email_address:adam twitter_name:adam first_name:adam last_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Adam
+total hits: 0, results delivered: 0
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Wilson
+-->+(email_address:wilson twitter_name:wilson first_name:wilson last_name:wilson) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Wilson
+total hits: 0, results delivered: 0
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :last_name, :twitter_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test first_name:test last_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: test
+total hits: 0, results delivered: 0
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam first_name:adam last_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam
+total hits: 0, results delivered: 0
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarden.co.uk
+-->+(email_address:adam@codegarden.co.uk twitter_name:adam@codegarden.co.uk first_name:adam@codegarden.co.uk last_name:adam@codegarden.co.uk) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegarden.co.uk
+total hits: 0, results delivered: 0
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :twitter_name, :first_name, :last_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam first_name:adam last_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam
+total hits: 0, results delivered: 0
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam first_name:adam last_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :twitter_name, :last_name, :first_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: *
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: *
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: *
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: *
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: test
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :twitter_name, :last_name, :first_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :twitter_name, :last_name, :first_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: yty
+-->+(email_address:yty twitter_name:yty last_name:yty first_name:yty) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: yty
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: ytyssd
+-->+(email_address:ytyssd twitter_name:ytyssd last_name:ytyssd first_name:ytyssd) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: ytyssd
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Adam Wilson
+-->+(+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: Adam Wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Adam Wilson
+-->+(+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: Adam Wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Adam Wilson
+-->+(+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: Adam Wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: tes
+-->+(email_address:tes twitter_name:tes last_name:tes first_name:tes) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: tes
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test Contact ->
+-->+(email_address:"test contact"~1 twitter_name:"test contact"~1 last_name:"test contact"~1 first_name:"test contact"~1) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Test Contact ->
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test Contact ->
+-->+(email_address:"test contact"~1 twitter_name:"test contact"~1 last_name:"test contact"~1 first_name:"test contact"~1) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Test Contact ->
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test Contact
+-->+(+(email_address:test twitter_name:test last_name:test first_name:test) +(email_address:contact twitter_name:contact last_name:contact first_name:contact)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: Test Contact
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test C
+-->+(+(email_address:test twitter_name:test last_name:test first_name:test) +(email_address:c twitter_name:c last_name:c first_name:c)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Test C
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: Test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Test C
+-->+(+(email_address:test twitter_name:test last_name:test first_name:test) +(email_address:c twitter_name:c last_name:c first_name:c)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Test C
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test c
+-->+(+(email_address:test twitter_name:test last_name:test first_name:test) +(email_address:c twitter_name:c last_name:c first_name:c)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: test c
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test
+-->+(email_address:test twitter_name:test last_name:test first_name:test) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: test
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: test c
+-->+(+(email_address:test twitter_name:test last_name:test first_name:test) +(email_address:c twitter_name:c last_name:c first_name:c)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: test c
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam.
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam.
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam@
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarde
+-->+(email_address:adam@codegarde twitter_name:adam@codegarde last_name:adam@codegarde first_name:adam@codegarde) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegarde
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegardeb
+-->+(email_address:adam@codegardeb twitter_name:adam@codegardeb last_name:adam@codegardeb first_name:adam@codegardeb) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegardeb
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarde
+-->+(email_address:adam@codegarde twitter_name:adam@codegarde last_name:adam@codegarde first_name:adam@codegarde) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegarde
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarden
+-->+(email_address:adam@codegarden twitter_name:adam@codegarden last_name:adam@codegarden first_name:adam@codegarden) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegarden
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarde
+-->+(email_address:adam@codegarde twitter_name:adam@codegarde last_name:adam@codegarde first_name:adam@codegarde) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adam@codegarde
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: code
+-->+(email_address:code twitter_name:code last_name:code first_name:code) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: code
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: codegarden
+-->+(email_address:codegarden twitter_name:codegarden last_name:codegarden first_name:codegarden) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: codegarden
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: codegarden.co.uk
+-->+(email_address:codegarden.co.uk twitter_name:codegarden.co.uk last_name:codegarden.co.uk first_name:codegarden.co.uk) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: codegarden.co.uk
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adamcodegarden.co.uk
+-->+(email_address:adamcodegarden.co.uk twitter_name:adamcodegarden.co.uk last_name:adamcodegarden.co.uk first_name:adamcodegarden.co.uk) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: adamcodegarden.co.uk
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam@codegarden.co.uk
+-->+(email_address:adam@codegarden.co.uk twitter_name:adam@codegarden.co.uk last_name:adam@codegarden.co.uk first_name:adam@codegarden.co.uk) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam@codegarden.co.uk
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: ada
+-->+(email_address:ada twitter_name:ada last_name:ada first_name:ada) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: ada
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: wilson
+-->+(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: wil
+-->+(email_address:wil twitter_name:wil last_name:wil first_name:wil) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: wil
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: ada
+-->+(email_address:ada twitter_name:ada last_name:ada first_name:ada) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: ada
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam
+-->+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: Adam Wilson ->
+-->+(email_address:"adam wilson"~1 twitter_name:"adam wilson"~1 last_name:"adam wilson"~1 first_name:"adam wilson"~1) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: Adam Wilson ->
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam wilson
+-->+(+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: adam wilson
+-->+(+(email_address:adam twitter_name:adam last_name:adam first_name:adam) +(email_address:wilson twitter_name:wilson last_name:wilson first_name:wilson)) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: adam wilson
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">, #<Contact id: 3, first_name: "Test", last_name: "Contact", email_address: "test@testing.net", phone_number: "87236234", image_file_name: "MFTV_avatar3.gif", image_content_type: "image/gif", image_file_size: "82106", twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-08 22:01:33", updated_at: "2009-08-08 22:01:33">]
+Query: *
+total hits: 2, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: elemental
+-->+(email_address:elemental twitter_name:elemental last_name:elemental first_name:elemental) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: elemental
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: elementalbeat
+-->+(email_address:elementalbeat twitter_name:elementalbeat last_name:elementalbeat first_name:elementalbeat) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: elementalbeat
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: elementalbeats
+-->+(email_address:elementalbeats twitter_name:elementalbeats last_name:elementalbeats first_name:elementalbeats) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 1 results from AR: [#<Contact id: 2, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: "129508", twitter_name: "elementalbeats", crypted_twitter_password: "bec5b9e6cabf8d26e460c80d4495ac8f6fd67c5c", twitter_salt: "cd050adaacf77442d461771ecde4d8c1305b0512", created_at: "2009-08-08 21:59:58", updated_at: "2009-08-08 21:59:58">]
+Query: elementalbeats
+total hits: 1, results delivered: 1
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: elementalbeat
+-->+(email_address:elementalbeat twitter_name:elementalbeat last_name:elementalbeat first_name:elementalbeat) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: elementalbeat
+total hits: 0, results delivered: 0
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: string, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: ada
+-->+(email_address:ada twitter_name:ada last_name:ada first_name:ada) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 0 results from AR: []
+Query: ada
+total hits: 0, results delivered: 0
