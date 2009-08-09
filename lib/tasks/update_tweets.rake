@@ -20,8 +20,11 @@
           
           tweets_text = []
           if search 
+            i = 0
             search.each do |r|
               tweets_text.push [r.text,r.created_at]
+              break if i==5
+              i+=1
             end
             
             

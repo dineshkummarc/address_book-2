@@ -12,7 +12,11 @@ This was not needed!
 You may search contacts by name (with autocomplete) or email address or twitter name (without).
 
 The update_tweets rake task occasionally fails with 
-
 #undefined method `stringify_keys' for #<String:0x22815ac>
+however running it again seems to make it work.
 
-however running it again it seems to make it work.
+Requires the Ruby Twitter Gem - had some trouble unpacking gems for this project
+
+
+
+ 
