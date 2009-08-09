@@ -23,7 +23,12 @@
 <def tag="card" for="Contact">
   <card class="contact">
     <header:>
-      <h4><a><%= image_tag this.image :thumb %> <name/></a></h4>
+      <a>
+      	<div class="contact-index-image">
+      	 <%= image_tag this.image :thumb %>
+				</div> 
+				<h4><name/></h4>
+			</a>
     </header:>
   </card>	
 </def>

@@ -14,6 +14,11 @@
 	margin-right: 45px;
 }
 
+.contact-index-image {
+	float: left;
+	width: 70px;
+}
+
 div.autocomplete {
   position:absolute;
   width:250px;
