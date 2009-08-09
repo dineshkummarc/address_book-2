@@ -18,28 +18,29 @@
           
           search = Twitter::Search.new.from(c.twitter_name)
           
-          tweets = []
+          tweets_text = []
           if search 
             search.each do |r|
-              tweets << r.text
+              tweets_text.push [r.text,r.created_at]
             end
             
             
-            puts search.inspect
+            #puts search.inspect
             
             old_tweets = Tweet.find_all_by_contact_id(c.id) 
             if old_tweets.empty? 
-              if tweets.length > 0
-                tweets[1..max_tweets].each do |t| 
+              if tweets_text.length > 0
+                tweets_text[1..max_tweets].each do |t| 
                   puts "#{t}\n"
-                  Tweet.create(:contact_id => c.id, :text => t)
+                  Tweet.create(:contact_id => c.id, :text => t[0], :created_at => DateTime.parse(t[1]))
     
                 end
               end
             else
               i = 0
               old_tweets[1..max_tweets].each do |t|
-                t.update_attribute(:text, tweets[i])
+                puts "#{tweets_text[i][0]}\n"
+                t.update_attributes({:text => tweets_text[i][0], :created_at => DateTime.parse(tweets_text[i][1]) })
                 i+=1
               end
             end

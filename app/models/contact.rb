@@ -16,6 +16,9 @@ class Contact < ActiveRecord::Base
     timestamps
   end
   
+
+  
+  
   before_save :encrypt_twitter_password
   
   has_many :tweets
@@ -23,8 +26,11 @@ class Contact < ActiveRecord::Base
   # Virtual attributes for setting and changing the password
   attr_accessor :twitter_password, :type => :password  
   never_show :twitter_salt, :crypted_twitter_password
-  attr_protected :twitter_salt, :crypted_twitter_password  
+  attr_protected :twitter_salt, :crypted_twitter_password
   
+  validates_uniqueness_of  :email_address, :case_sensitive => false
+  validates_format_of :email_address, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i
+
   has_attached_file :image, :styles => { :medium => "200x200>", :thumb => "50x50>" }
   acts_as_ferret :fields => [:first_name, :last_name, :name, :twitter_name, :email_address]
   

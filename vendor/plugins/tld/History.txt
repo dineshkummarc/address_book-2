@@ -1,0 +1,38 @@
+=== 0.6.0 / 2009-06-30
+
+* TLD.has_valid_tld? method added, which allows you to check if a given
+  hostname has a valid TLD.
+
+=== 0.5.0 / 2009-06-30
+
+* TLD.valid? method added, which allows you to check if a given string is
+  a valid TLD.
+
+=== 0.4.0 / 2009-06-30
+
+* You can now call to_s on a TLD object, which will return the canonical name
+  (i.e. the lowercase extension).  This saves you writing code like
+  "foo.co.#{tld.tld}".  Instead, now you can write "foo.co.#{tld}".
+* Addressable::URI is now used for parsing hostnames instead of custom regexes.
+* Tests now run under Shoulda
+* The gem is now built under Jeweler instead of Hoe
+
+=== 0.2.1 / 2009-02-27
+
+* Bugfix: original strings left intact
+
+=== 0.2.0 / 2008-11-25
+
+* ISO 3166-1 alpha-3 country codes made available
+
+=== 0.1.1 / 2008-11-25
+
+Bug fixes:
+
+* US-based .gov and .mil TLDs now return USD as their currency
+* .com no longer returns the currency for Comoros
+
+=== 0.1.0 / 2008-11-20
+
+* Initial release
+

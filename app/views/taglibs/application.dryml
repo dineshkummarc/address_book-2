@@ -24,13 +24,22 @@
 <def tag="card" for="Contact">
   <card class="contact">
     <header:>
-      <a>
-      	<div class="contact-index-image">
-      	 <%= image_tag this.image :thumb %>
-				</div> 
-				<h4><name/></h4>
-			</a>
+      
+      <div class="contact-index-image">
+      	 <a><%= image_tag this.image :thumb %></a>
+			</div>
+			<div class="contact-a">
+				        
+				<h4><a/></h4>
+
+			</div>
+			<div class="contact-delete">
+				<delete-button label="Delete" confirm="Delete contact #{this.name}?"/>
+			</div>
+			 
+
     </header:>
+		
   </card>	
 </def>
 
@@ -46,21 +55,31 @@
             <a action="edit" if="&can_edit?" param="edit-link">Edit Contact</a>
           </header>             	
           <section param="content-body">
-          	<div class="contact_details">
-	          	<div class="contact_image">
+          	<div class="contact-details">
+	          	<div class="contact-image">
 	          		<%= image_tag this.image.url :medium %>
 	          	</div>
-	          	<div class="contact_fields">
+	          	<div class="contact-fields">
 	              <field-list fields="first_name, last_name, email_address, phone_number,  twitter_name" param/>
 							</div>
 					  </div>
-						<div class="tweets">
-							<ul>
-								<collection:tweets limit="5"><li><%=this.text%></li></collection:tweets>
-							</ul>
-						</div>
+          <div class="tweet-div">
+            <h4>Tweets</h4>
+            <ul>
+              <collection:tweets>
+                <li>
+                  <div class="tweet-created">
+                    <%=time_ago_in_words(this.created_at)%> ago
+                  </div>
+                  <%=this.text%>
+                </li>
+              </collection:tweets>
+            </ul>
+          </div>            
+
 						
           </section>
+
     </content:>
     
   </page>
@@ -94,7 +113,7 @@
       <stylesheet name="application" param="app-stylesheet"/>
     </stylesheets:>
 		<live-search: replace>
-		  <div id="contact_search">
+		  <div id="contact-search">
 		      <form action="contacts" method="GET">
 		        <label for="search">Search Contacts: </label>
 		        <input type="text" id="autocomplete" name="search" />

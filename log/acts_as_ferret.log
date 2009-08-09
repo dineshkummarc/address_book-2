@@ -2855,3 +2855,883 @@ total hits: 3, results delivered: 3
 [contact] refusing re-registration of class Contact
 [contact] register class Contact with index contact
 [contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:name, :twitter_name, :last_name, :first_name, :email_address]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :limit=>10, :offset=>0, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 02:17:38", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :limit=>10, :offset=>0, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 02:17:38", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :limit=>10, :offset=>0, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 02:17:38", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :limit=>10, :offset=>0, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 02:17:38", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">]
+Query: *
+total hits: 3, results delivered: 3
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:name, :twitter_name, :last_name, :first_name, :email_address]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 02:17:38", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 4 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 4, first_name: "Test", last_name: "tester", email_address: "test@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:13:52", updated_at: "2009-08-09 12:13:52", image_updated_at: nil>]
+Query: *
+total hits: 4, results delivered: 4
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :twitter_name, :name, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 3 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">]
+Query: *
+total hits: 3, results delivered: 3
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 4 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>]
+Query: *
+total hits: 4, results delivered: 4
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :twitter_name, :name, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:email_address, :last_name, :name, :twitter_name, :first_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 4 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>]
+Query: *
+total hits: 4, results delivered: 4
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 4 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>]
+Query: *
+total hits: 4, results delivered: 4
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 4 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>]
+Query: *
+total hits: 4, results delivered: 4
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 5 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>]
+Query: *
+total hits: 5, results delivered: 5
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 6 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>, #<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>]
+Query: *
+total hits: 6, results delivered: 6
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 7 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>, #<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>, #<Contact id: 8, first_name: "test3", last_name: "test", email_address: "test3@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:56", updated_at: "2009-08-09 13:37:56", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 7
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>5, :per_page=>5}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 5 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 5
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>2, :offset=>5, :limit=>5, :per_page=>5}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 2 results from AR: [#<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>, #<Contact id: 8, first_name: "test3", last_name: "test", email_address: "test3@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:56", updated_at: "2009-08-09 13:37:56", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 2
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>5, :per_page=>5}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 5 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 5
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 7 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>, #<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>, #<Contact id: 8, first_name: "test3", last_name: "test", email_address: "test3@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:56", updated_at: "2009-08-09 13:37:56", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 7
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :twitter_name, :name, :email_address, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :twitter_name, :name, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 7 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>, #<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>, #<Contact id: 8, first_name: "test3", last_name: "test", email_address: "test3@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:56", updated_at: "2009-08-09 13:37:56", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 7
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+index_for [Contact(id: integer, first_name: string, last_name: string, email_address: string, phone_number: string, image_file_name: string, image_content_type: string, image_file_size: integer, twitter_name: string, crypted_twitter_password: string, twitter_salt: string, created_at: datetime, updated_at: datetime, image_updated_at: datetime)]
+options: {:page=>1, :offset=>0, :limit=>10, :per_page=>10}
+ar_options: {}
+[contact] stored_fields: nil
+[contact] query: *
+-->+(* * * * *) +(class_name:Contact)
+[contact] now retrieving records from AR with options: {}
+[contact] 7 results from AR: [#<Contact id: 2, first_name: "New ", last_name: "Bamboo", email_address: "", phone_number: "", image_file_name: "New_Bamboo_Leaf_large_bigger.gif", image_content_type: "image/gif", image_file_size: 2619, twitter_name: "newbamboo", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:20:41", updated_at: "2009-08-09 02:22:00", image_updated_at: "2009-08-09 02:22:00">, #<Contact id: 3, first_name: "Rusko", last_name: "Babylon", email_address: "", phone_number: "", image_file_name: "00332.jpg", image_content_type: "image/jpeg", image_file_size: 1530159, twitter_name: "ruskoofficial", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 02:25:16", updated_at: "2009-08-09 02:26:11", image_updated_at: "2009-08-09 02:25:13">, #<Contact id: 1, first_name: "Adam", last_name: "Wilson", email_address: "adam@codegarden.co.uk", phone_number: "07733266455", image_file_name: "oversoul.jpg", image_content_type: "image/jpeg", image_file_size: 129508, twitter_name: "elementalbeats", crypted_twitter_password: "4897208f4cc5c95f357a811adf3c565c8c7eae10", twitter_salt: "b6d6e55803c1455a7818ec64a2e50d6a8ba863e2", created_at: "2009-08-09 02:17:38", updated_at: "2009-08-09 12:04:50", image_updated_at: "2009-08-09 02:17:37">, #<Contact id: 5, first_name: "Joe", last_name: "Nice", email_address: "joe@nice.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "joenicedj", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 12:38:27", updated_at: "2009-08-09 12:38:27", image_updated_at: nil>, #<Contact id: 6, first_name: "test", last_name: "test", email_address: "test1@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:33:54", updated_at: "2009-08-09 13:33:54", image_updated_at: nil>, #<Contact id: 7, first_name: "test2", last_name: "test", email_address: "test2@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:26", updated_at: "2009-08-09 13:37:26", image_updated_at: nil>, #<Contact id: 8, first_name: "test3", last_name: "test", email_address: "test3@test.com", phone_number: "", image_file_name: nil, image_content_type: nil, image_file_size: nil, twitter_name: "", crypted_twitter_password: nil, twitter_salt: nil, created_at: "2009-08-09 13:37:56", updated_at: "2009-08-09 13:37:56", image_updated_at: nil>]
+Query: *
+total hits: 7, results delivered: 7
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :twitter_name, :name, :last_name]
+Will use local index.
+using index in /Users/adam/work/rails/address_book/index/development/contact
+[contact] register class Contact with index contact
+[contact] default field list for index contact: [:first_name, :email_address, :twitter_name, :name, :last_name]
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact
+[contact] register class Contact with index contact
+[contact] refusing re-registration of class Contact

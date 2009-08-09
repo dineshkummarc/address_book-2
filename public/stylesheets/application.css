@@ -1,15 +1,15 @@
 
 
-.contact_image {
+.contact-image {
 	float: left;
 	margin-right: 40px;
 }
 
-.contact_fields {
+.contact-fields {
 	float: left;
 }
 
-#contact_search {
+#contact-search {
 	float: right;
 	margin-right: 45px;
 }
@@ -18,6 +18,40 @@
 	float: left;
 	width: 70px;
 }
+
+.edit-link {
+	float: right;
+}
+
+.contact-name {
+	float: left;
+}
+
+.contact-delete {
+	float:right;
+	/* margin-right: 50px; */
+}
+
+.tweet-div {
+	width: 380px;
+	float: right;
+	background-color: #A7CEE2;
+	padding: 5px;
+}
+
+.tweet-created {
+	font-weight: bold;
+}
+
+.section.content {
+	height: 400px;
+}
+
+.tweets li {
+	padding-bottom: 5px;
+}
+
+
 
 div.autocomplete {
   position:absolute;
