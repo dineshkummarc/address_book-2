@@ -1,23 +1,16 @@
 <index-page>
+	
+	
+	
   <after-content-header:>
-  	<div id="contact_search">
-	    <form action="contacts" method="GET">
-	      <label for="search">Search Contacts: </label>
-				<input type="text" id="autocomplete" name="search" />
-        <div id="autocomplete_choices" class="autocomplete"></div>								
-	    </form>
-			<script type="text/javascript">
-				addLoadEvent( function() {
-					new Ajax.Autocompleter("autocomplete", "autocomplete_choices", "/contacts/autocomplete_search", {
-						authenticity_token: formAuthToken.value,
-	          paramName: "query", 
-	          minChars: 2//, 
-	          //indicator: 'indicator1'
-					});
-				});
-				//console.log(formAuthToken.value);
-			</script>
-			
-		</div>
+ 
   </after-content-header:>
+	
+  <content-header:>
+
+    <h2>Contacts</h2>
+    <p if>Found <count/></p>
+
+  </content-header:>	
+	
 </index-page>

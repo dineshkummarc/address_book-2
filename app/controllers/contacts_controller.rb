@@ -14,7 +14,17 @@ class ContactsController < ApplicationController
 #  
 
   def autocomplete_search
-    results = Contact.find_with_ferret(params[:query])
+    #results = Contact.find_with_ferret(params[:query])
+    words = params[:query].split(' ')
+    conditions = []
+    
+    words.each do |word|
+      conditions << "first_name LIKE '%#{word}%' OR last_name LIKE '%#{word}%'"
+    end
+    conditions = conditions.join(" OR ")
+    logger.debug conditions
+    results = Contact.find(:all, :conditions => conditions)
+    logger.debug results.inspect
     render :text => call_tag(:autocomplete_search, {:with => results})
   end
 

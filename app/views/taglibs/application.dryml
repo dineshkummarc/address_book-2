@@ -20,6 +20,14 @@
   </form>
 </def>
 
+<def tag="card" for="Contact">
+  <card class="contact">
+    <header:>
+      <h4><a><%= image_tag this.image :thumb %> <name/></a></h4>
+    </header:>
+  </card>	
+</def>
+
 <extend tag="show-page" for="Contact">
   <page merge>
 
@@ -44,8 +52,9 @@
   </page>
 </extend>
 
+
 <def tag="autocomplete-li">
-	<li><%=this.name%> <a>-></a></li>
+	<li><a/></li>
 </def>
 
 <def tag="autocomplete-search">
@@ -57,6 +66,42 @@
 	</ul>
 	
 </def>	
+
+
+		
+		
+		
+<extend tag="page">
+  <old-page merge>
+    <stylesheets: param>
+      <stylesheet name="reset"/>
+      <theme-stylesheet/>
+      <theme-stylesheet name="rapid-ui"/>
+      <stylesheet name="application" param="app-stylesheet"/>
+    </stylesheets:>
+		<live-search: replace>
+		  <div id="contact_search">
+		      <form action="contacts" method="GET">
+		        <label for="search">Search Contacts: </label>
+		        <input type="text" id="autocomplete" name="search" />
+		        <div id="autocomplete_choices" class="autocomplete"></div>                
+		      </form>
+		      <script type="text/javascript">
+		        addLoadEvent( function() {
+		          new Ajax.Autocompleter("autocomplete", "autocomplete_choices", "/contacts/autocomplete_search", {
+		            authenticity_token: formAuthToken.value,
+		            paramName: "query", 
+		            minChars: 2//, 
+		            //indicator: 'search_indicator'
+		          });
+		        });
+		        //console.log(formAuthToken.value);
+		      </script>
+		      
+		    </div>
+		</live-search>
+  </old-page>
+</extend>  		
 
 
 

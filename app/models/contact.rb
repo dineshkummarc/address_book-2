@@ -23,7 +23,7 @@ class Contact < ActiveRecord::Base
   never_show :twitter_salt, :crypted_twitter_password
   attr_protected :twitter_salt, :crypted_twitter_password  
   
-  has_attached_file :image, :styles => { :medium => "200x200>", :thumb => "75x75>" }
+  has_attached_file :image, :styles => { :medium => "200x200>", :thumb => "50x50>" }
   acts_as_ferret :fields => [:first_name, :last_name, :name, :twitter_name, :email_address]
 
   
