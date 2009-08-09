@@ -13,7 +13,8 @@
   <form merge param="default" enctype="multipart/form-data">
     <error-messages param/>
 		
-    <field-list fields="first_name, last_name, image, email_address, phone_number, twitter_name, twitter_password" param/>
+    <!--field-list fields="first_name, last_name, image, email_address, phone_number, twitter_name, twitter_password" param/-->
+		<field-list fields="first_name, last_name, image, email_address, phone_number, twitter_name" param/>
     <div param="actions">
       <submit label="Save" param/><or-cancel param="cancel"/>
     </div>
@@ -45,12 +46,20 @@
             <a action="edit" if="&can_edit?" param="edit-link">Edit Contact</a>
           </header>             	
           <section param="content-body">
-          	<div class="contact_image">
-          		<%= image_tag this.image.url :medium %>
-          	</div>
-          	<div class="contact_fields">
-              <field-list fields="first_name, last_name, email_address, phone_number,  twitter_name" param/>
+          	<div class="contact_details">
+	          	<div class="contact_image">
+	          		<%= image_tag this.image.url :medium %>
+	          	</div>
+	          	<div class="contact_fields">
+	              <field-list fields="first_name, last_name, email_address, phone_number,  twitter_name" param/>
+							</div>
+					  </div>
+						<div class="tweets">
+							<ul>
+								<collection:tweets limit="5"><li><%=this.text%></li></collection:tweets>
+							</ul>
 						</div>
+						
           </section>
     </content:>
     

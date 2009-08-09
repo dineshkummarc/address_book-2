@@ -6,6 +6,7 @@
   <navigation class="main-nav" merge-attrs param="default">
     <nav-item href="#{base_url}/">Home</nav-item>
     <nav-item with="&Contact">Contacts</nav-item>
+    <nav-item with="&Tweet">Tweets</nav-item>
   </navigation>
 </def>
 
@@ -77,7 +78,7 @@
           </header>
     
           <section param="content-body">
-            <field-list fields="first_name, last_name, email_address, phone_number, image_file_name, image_content_type, image_file_size, twitter_name" param/>
+            <field-list fields="first_name, last_name, email_address, phone_number, image_file_name, image_content_type, image_file_size, twitter_name, image_updated_at" param/>
           </section>
     </content:>
     
@@ -94,6 +95,102 @@
       <section param="content-header">
         <h2 param="heading">Edit <type-name/></h2>
         <delete-button label="Remove This Contact" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+    
+  </page>
+</def>
+
+
+
+
+  
+<!-- ====== Tweet Pages ====== -->
+
+
+<def tag="index-page" for="Tweet">
+  <page merge title="Tweets">
+    <body: class="index-page tweet" param/>
+    
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">Tweets</h2>
+
+        <p param="count" if>There <count prefix="are"/></p>
+      </header>
+      
+      <section param="content-body">
+
+        <a action="new" to="&model" param="new-link"/>      
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="Tweet">
+  <page merge title="New Tweet">
+    <body: class="new-page tweet" param/>
+    
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">New Tweet</h2>
+      </section>
+      
+      <section param="content-body">
+        <form param>
+          <submit: label="Create Tweet"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="Tweet">
+  <page merge title="Tweet">
+
+    <body: class="show-page tweet" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading"><name/></h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">Edit Tweet</a>
+          </header>
+    
+          <section param="content-body">
+            <field-list fields="text, contact" param/>
+          </section>
+    </content:>
+    
+  </page>
+</def>
+
+
+<def tag="edit-page" for="Tweet">
+  <page merge title="Edit Tweet">
+
+    <body: class="edit-page tweet" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">Edit <type-name/></h2>
+        <delete-button label="Remove This Tweet" param/>
       </section>
 
       <section param="content-body">

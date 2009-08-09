@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090808185042) do
+ActiveRecord::Schema.define(:version => 20090809011200) do
 
   create_table "contacts", :force => true do |t|
     t.string   "first_name"
@@ -18,10 +18,18 @@ ActiveRecord::Schema.define(:version => 20090808185042) do
     t.string   "phone_number"
     t.string   "image_file_name"
     t.string   "image_content_type"
-    t.string   "image_file_size"
+    t.integer  "image_file_size"
     t.string   "twitter_name"
     t.string   "crypted_twitter_password"
     t.string   "twitter_salt"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.datetime "image_updated_at"
+  end
+
+  create_table "tweets", :force => true do |t|
+    t.string   "text"
+    t.integer  "contact_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -3,7 +3,19 @@
 <def tag="form" for="Contact">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="first_name, last_name, email_address, phone_number, image_file_name, image_content_type, image_file_size, twitter_name" param/>
+    <field-list fields="first_name, last_name, email_address, phone_number, image_file_name, image_content_type, image_file_size, twitter_name, image_updated_at" param/>
+    <div param="actions">
+      <submit label="Save" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Tweet">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="text, contact" param/>
     <div param="actions">
       <submit label="Save" param/><or-cancel param="cancel"/>
     </div>

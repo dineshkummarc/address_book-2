@@ -18,6 +18,8 @@ class Contact < ActiveRecord::Base
   
   before_save :encrypt_twitter_password
   
+  has_many :tweets
+  
   # Virtual attributes for setting and changing the password
   attr_accessor :twitter_password, :type => :password  
   never_show :twitter_salt, :crypted_twitter_password
