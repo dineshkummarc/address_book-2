@@ -1,0 +1,16 @@
+<page title="Home">
+
+  <body: class="front-page"/>
+
+  <content:>
+    <header class="content-header">
+      <h1>Welcome to Phonebook</h1>
+			<h4>This Phonebook has <a ><count with="&Contact.find(:all)" /></a></h4>
+    </header>
+
+    <section class="content-body">
+    	<p>You may search contacts by name (with autocomplete) or email address or twitter name (without).</p>
+    </section>
+  </content:>
+  
+</page>
