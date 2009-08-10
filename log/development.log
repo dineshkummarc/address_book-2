@@ -14232,3 +14232,111 @@ Completed in 268ms (View: 262, DB: 3) | 200 OK [http://localhost/contacts/3-rusk
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
+  [4;35;1mSQL (37.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ContactsController#show (for 127.0.0.1 at 2009-08-09 17:51:57) [GET]
+  Parameters: {"id"=>"3-rusko-babylon"}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mContact Load (0.4ms)[0m   [0mSELECT * FROM "contacts" WHERE ("contacts"."id" = 3) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" LIMIT 30[0m
+  [4;35;1mSQL (25.6ms)[0m   [0mSELECT count(*) AS count_all FROM "tweets" WHERE ("tweets".contact_id = 3) [0m
+  [4;36;1mTweet Load (0.6ms)[0m   [0;1mSELECT * FROM "tweets" WHERE ("tweets".contact_id = 3) [0m
+Completed in 705ms (View: 647, DB: 65) | 200 OK [http://localhost/contacts/3-rusko-babylon]
+  [4;35;1mSQL (16.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ContactsController#index (for 127.0.0.1 at 2009-08-09 17:52:27) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mContact Load (2.4ms)[0m   [0;1mSELECT * FROM "contacts" WHERE (contacts.id in ('6','7','8','1','2','3','5')) [0m
+Rendering contacts/index
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" LIMIT 30[0m
+Completed in 441ms (View: 362, DB: 21) | 200 OK [http://localhost/contacts]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-09 17:52:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/thumb/missing.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (9.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mContact Load (1.0ms)[0m   [0mSELECT * FROM "contacts" [0m
+  [4;36;1mTweet Delete all (36.9ms)[0m   [0;1mDELETE FROM "tweets" WHERE (contact_id = 2) [0m
+  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 11:19:10', '2009-08-10 22:01:29', 'New specs proposed by Yahoo! to enhance HTTP caching, and how to use it. http://tr.im/vRkR', 2)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 09:38:21', '2009-08-10 22:01:29', 'How do you share knowledge on your team? http://tr.im/vQPZ', 2)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 11:43:42', '2009-08-10 22:01:29', 'New Protect The Human redesign in collaboration with @madebymany. Check it out! http://bit.ly/Gazdo', 2)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 09:09:16', '2009-08-10 22:01:29', 'Project management apps are like lightsabers; you have to build your own. -Gwyn', 2)[0m
+  [4;35;1mTweet Delete all (3.0ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 3) [0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 17:30:29', '2009-08-10 22:01:30', 'RT @minikomi: @ruskoofficial raiders of the lost skip?', 3)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:24:24', '2009-08-10 22:01:30', 'Oh no, the skip raiders r here already!!! ''''scrap metal mate?'''' NO FUCKOFF my skip!!', 3)[0m
+  [4;36;1mTweet Create (0.5ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:21:44', '2009-08-10 22:01:30', 'Yeah the monitors are fucked guys sorry! @everyone! They are kinda sentimental, Shipping uk to us is expensive tho, in da skip!! Loveskip', 3)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 13:11:30', '2009-08-10 22:01:30', 'http://twitpic.com/ddzjv - Check out my skip!!!!!', 3)[0m
+  [4;36;1mTweet Create (0.5ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 11:21:53', '2009-08-10 22:01:30', 'im fillin up the skip so massive', 3)[0m
+  [4;35;1mTweet Delete all (3.1ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 5) [0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 20:28:05', '2009-08-10 22:01:31', 'Flight is delayed. Not sexy at all.....', 5)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:22:43', '2009-08-10 22:01:31', 'Showtime in portland tonight!', 5)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:11:49', '2009-08-10 22:01:31', 'Moldy is smashing it now! It''s getting ugly! No joke.', 5)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 12:23:35', '2009-08-10 22:01:31', 'Joenice - in portland !', 5)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 11:33:55', '2009-08-10 22:01:31', 'Just ran into current nba baller and fellow calvert hall alum juan dixon.', 5)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mContact Load (1.0ms)[0m   [0mSELECT * FROM "contacts" [0m
+  [4;36;1mTweet Delete all (3.1ms)[0m   [0;1mDELETE FROM "tweets" WHERE (contact_id = 2) [0m
+  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 11:19:10', '2009-08-10 22:02:20', 'New specs proposed by Yahoo! to enhance HTTP caching, and how to use it. http://tr.im/vRkR', 2)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 09:38:21', '2009-08-10 22:02:20', 'How do you share knowledge on your team? http://tr.im/vQPZ', 2)[0m
+  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 11:43:42', '2009-08-10 22:02:20', 'New Protect The Human redesign in collaboration with @madebymany. Check it out! http://bit.ly/Gazdo', 2)[0m
+  [4;36;1mTweet Create (0.3ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 09:09:16', '2009-08-10 22:02:21', 'Project management apps are like lightsabers; you have to build your own. -Gwyn', 2)[0m
+  [4;35;1mTweet Delete all (3.1ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 3) [0m
+  [4;36;1mTweet Create (0.5ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 17:30:29', '2009-08-10 22:02:21', 'RT @minikomi: @ruskoofficial raiders of the lost skip?', 3)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:24:24', '2009-08-10 22:02:21', 'Oh no, the skip raiders r here already!!! ''''scrap metal mate?'''' NO FUCKOFF my skip!!', 3)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:21:44', '2009-08-10 22:02:21', 'Yeah the monitors are fucked guys sorry! @everyone! They are kinda sentimental, Shipping uk to us is expensive tho, in da skip!! Loveskip', 3)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 13:11:30', '2009-08-10 22:02:21', 'http://twitpic.com/ddzjv - Check out my skip!!!!!', 3)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 11:21:53', '2009-08-10 22:02:21', 'im fillin up the skip so massive', 3)[0m
+  [4;35;1mTweet Delete all (3.1ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 5) [0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 20:28:05', '2009-08-10 22:02:22', 'Flight is delayed. Not sexy at all.....', 5)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:22:43', '2009-08-10 22:02:22', 'Showtime in portland tonight!', 5)[0m
+  [4;36;1mTweet Create (0.3ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:11:49', '2009-08-10 22:02:22', 'Moldy is smashing it now! It''s getting ugly! No joke.', 5)[0m
+  [4;35;1mTweet Create (0.3ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 12:23:35', '2009-08-10 22:02:22', 'Joenice - in portland !', 5)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 11:33:55', '2009-08-10 22:02:22', 'Just ran into current nba baller and fellow calvert hall alum juan dixon.', 5)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mContact Load (1.0ms)[0m   [0mSELECT * FROM "contacts" [0m
+  [4;36;1mTweet Delete all (1.9ms)[0m   [0;1mDELETE FROM "tweets" WHERE (contact_id = 2) [0m
+  [4;35;1mTweet Create (0.6ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 11:19:10', '2009-08-10 22:03:39', 'New specs proposed by Yahoo! to enhance HTTP caching, and how to use it. http://tr.im/vRkR', 2)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-07 09:38:21', '2009-08-10 22:03:39', 'How do you share knowledge on your team? http://tr.im/vQPZ', 2)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 11:43:42', '2009-08-10 22:03:39', 'New Protect The Human redesign in collaboration with @madebymany. Check it out! http://bit.ly/Gazdo', 2)[0m
+  [4;36;1mTweet Create (0.3ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-05 09:09:16', '2009-08-10 22:03:39', 'Project management apps are like lightsabers; you have to build your own. -Gwyn', 2)[0m
+  [4;35;1mTweet Delete all (1.9ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 3) [0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 17:30:29', '2009-08-10 22:03:39', 'RT @minikomi: @ruskoofficial raiders of the lost skip?', 3)[0m
+  [4;35;1mTweet Create (0.5ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:24:24', '2009-08-10 22:03:39', 'Oh no, the skip raiders r here already!!! ''''scrap metal mate?'''' NO FUCKOFF my skip!!', 3)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 14:21:44', '2009-08-10 22:03:39', 'Yeah the monitors are fucked guys sorry! @everyone! They are kinda sentimental, Shipping uk to us is expensive tho, in da skip!! Loveskip', 3)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 13:11:30', '2009-08-10 22:03:39', 'http://twitpic.com/ddzjv - Check out my skip!!!!!', 3)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-10 11:21:53', '2009-08-10 22:03:39', 'im fillin up the skip so massive', 3)[0m
+  [4;35;1mTweet Delete all (3.3ms)[0m   [0mDELETE FROM "tweets" WHERE (contact_id = 5) [0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 20:28:05', '2009-08-10 22:03:40', 'Flight is delayed. Not sexy at all.....', 5)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:22:43', '2009-08-10 22:03:40', 'Showtime in portland tonight!', 5)[0m
+  [4;36;1mTweet Create (0.4ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 17:11:49', '2009-08-10 22:03:40', 'Moldy is smashing it now! It''s getting ugly! No joke.', 5)[0m
+  [4;35;1mTweet Create (0.4ms)[0m   [0mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 12:23:35', '2009-08-10 22:03:40', 'Joenice - in portland !', 5)[0m
+  [4;36;1mTweet Create (0.5ms)[0m   [0;1mINSERT INTO "tweets" ("created_at", "updated_at", "text", "contact_id") VALUES('2009-08-09 11:33:55', '2009-08-10 22:03:40', 'Just ran into current nba baller and fellow calvert hall alum juan dixon.', 5)[0m
