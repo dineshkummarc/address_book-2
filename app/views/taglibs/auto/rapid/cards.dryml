@@ -11,7 +11,10 @@
 <def tag="card" for="Tweet">
   <card class="tweet" param="default" merge>
     <header: param>
-      <h4 param="heading"><a><name/></a></h4>
+      <h4 param="heading"><name/></h4>
+      <div param="actions">
+        <delete-button label="X" param/>
+      </div>
     </header:>
   </card>
 </def>
