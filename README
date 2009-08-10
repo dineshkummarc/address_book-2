@@ -11,11 +11,12 @@ This was not needed!
 
 You may search contacts by name (with autocomplete) or email address or twitter name (without).
 
-The update_tweets rake task occasionally fails with 
-#undefined method `stringify_keys' for #<String:0x22815ac>
-however running it again seems to make it work.
+"rake update_tweets" to get tweets for each contact with a twitter name. 
 
-Requires the Ruby Twitter Gem - had some trouble unpacking gems for this project
+The Hobo plugin was used, giving user login functionality out of the box.
+The default Hobo 'theme' was used, I replaced the site-wide search with the custom autocomplete contact search. 
+
+
 
 
 
